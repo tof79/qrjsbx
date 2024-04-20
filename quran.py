@@ -4,9 +4,9 @@ from random import *
 from time import *
 from telebot.types import InlineKeyboardMarkup as Mk
 from telebot.types import InlineKeyboardButton as btn 
-Token = input("Token :6271276762:AAFEyFjfi4_2ST8HBfdSOgRZhlBCRtLdfsY")
+Token = "6271276762:AAFEyFjfi4_2ST8HBfdSOgRZhlBCRtLdfsY"
 bot = TeleBot(Token)
-user_ch = input("Channel user :r79BoT") #معرف قناة النشر بدون @
+user_ch = "-1001288017420" #معرف قناة النشر بدون @
 key , dev = Mk() , Mk() 
 dev.add(btn(text=" • المطور • ",url="t.me/x99g9") )
 key.add(btn(text="• تفعيل النشر التلقائي 🔛 •",callback_data="run"))
